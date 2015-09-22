@@ -20,6 +20,9 @@ Route::get('abuot',function (){
 	return 'About Page';
 });
 
+Route::get('report',function (){
+	return 'Repost Page';
+});
 
 
 
