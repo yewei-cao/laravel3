@@ -24,6 +24,7 @@ Route::get('report',function (){
 	return 'Repost Page';
 });
 //s omething changes
+//add the route commit for the test
 
 Route::resource('reports','ReportsController');
 
