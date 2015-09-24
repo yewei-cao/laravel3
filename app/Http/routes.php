@@ -23,7 +23,8 @@ Route::get('about',function (){
 Route::get('report',function (){
 	return 'Repost Page';
 });
+//s omething changes
 
-
+Route::resource('reports','ReportsController');
 
 
